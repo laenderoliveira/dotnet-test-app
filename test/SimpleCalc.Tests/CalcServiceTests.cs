@@ -27,7 +27,7 @@ namespace SimpleCalc.Tests
         [Trait("Math Ops", "Simple")]
         [Theory]
         [InlineData(4, 5, -1)]
-        [InlineData(12, 3, 8)]
+        [InlineData(12, 3, 9)]
         public void TestSubtractNumbers(int x, int y, int expectedResult)
         {
             var cs = new CalcService();
@@ -38,7 +38,7 @@ namespace SimpleCalc.Tests
         [Trait("Math Ops", "Harder")]
         [Theory]
         [InlineData(2, 2, 4)]
-        [InlineData(12, 2, 25)]
+        [InlineData(12, 2, 24)]
         public void TestMultiplyNumbers(int x, int y, int expectedResult)
         {
             var cs = new CalcService();
